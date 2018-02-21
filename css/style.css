@@ -24,4 +24,9 @@ html {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
-  }
+}
+
+#top-header{
+  background-color: #f7f7f7;
+}
+
