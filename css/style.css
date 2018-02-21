@@ -30,3 +30,12 @@ html {
   background-color: #f7f7f7;
 }
 
+
+.carousel-indicators li {
+  border-radius: 50%;
+  bottom:-20px;
+  width: 8px;
+  height: 8px;
+  background-color: #dbdee1;
+}
+
