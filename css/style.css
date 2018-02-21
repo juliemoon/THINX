@@ -1,3 +1,27 @@
+/* Global styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   background-color: pink;
 }
+p {
+  font-family: Graphik; 
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
