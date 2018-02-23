@@ -47,6 +47,12 @@ body {
   padding-left:30px;
   padding-right:30px;
 }
+
+#size{
+  text-decoration:underline;
+  font-size: 10px;
+  color:black;
+}
 .black{
   background-color: black;
   color: white;
