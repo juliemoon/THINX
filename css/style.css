@@ -8,12 +8,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-body {
-  background-color: pink;
-}
-p {
-  font-family: Graphik; 
-}
 
 html {
   -webkit-box-sizing: border-box;
@@ -26,10 +20,47 @@ html {
   box-sizing: inherit;
 }
 
+
+body {
+  background-color:white;
+}
+
+.description {
+  font-family: Graphik;
+}
+
+#second p{
+  padding-right: 10px;
+}
 #top-header{
   background-color: #f7f7f7;
 }
 
+#third{
+  border: 1px solid blue;
+  margin-bottom: 165px;
+}
+
+#third p{
+  font-family: Graphik;
+}
+
+#third button{
+  border: 1px solid black;
+  border-radius:0;
+  text-align: center;
+  padding-left:30px;
+  padding-right:30px;
+}
+.black{
+  background-color: black;
+  color: white;
+  font-weight:bold;
+}
+
+.beige{
+  background-color:#eff1ca;
+}
 
 .carousel-indicators li {
   border-radius: 50%;
@@ -39,17 +70,36 @@ html {
   background-color: #dbdee1;
 }
 
+
 /* Bottom half of the page */
+
 #bottom-half img{
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
+#bottom-half a{
+  color:black;
+  border-bottom: 1px solid black;
+}
+
+#bottom-half a:hover{
+  text-decoration: none;
+}
+
+/* #middle{
+  text-align:center;
+  display:table;
+  background:pink;
+}
+#middle figcaption{
+ border: 5px solid black;
+} */
 @media only screen and (max-width: 575px) {
 	#second {
 		order: 2;
 	}
 	#third {
 		order: 3;
-	}
+  }
 }
