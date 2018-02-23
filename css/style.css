@@ -25,10 +25,32 @@ body {
   background-color:white;
 }
 
+#cycle{
+  margin-top:30px;
+}
+#cycle a:hover{
+  text-decoration: none;
+  color: black;
+}
+.cycle {
+  text-decoration: underline;
+  color:black;
+  font-family: Graphik;
+  font-size: 15px;
+}
+
+
+
 .description {
   font-family: Graphik;
 }
 
+#addcart{
+  background-color: black;
+  color:white;
+  font-family: Graphik;
+  font-weight: medium;
+}
 #second p{
   padding-right: 10px;
 }
@@ -57,10 +79,12 @@ body {
   background-color: black;
   color: white;
   font-weight:bold;
+  font-family: Graphik;
 }
 
 .beige{
   background-color:#eff1ca;
+  font-family: Graphik;
 }
 
 .carousel-indicators li {
